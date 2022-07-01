@@ -7,6 +7,7 @@ class PersonB{
         this.name = name;
         this.age = age;
     }
+    //getters and setters
     public String getName() {
         return name;
     }
@@ -20,6 +21,7 @@ class PersonB{
         this.age = age;
     }
 	
+	//to string meathod
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + "]";
 	}
